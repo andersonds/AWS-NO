@@ -28,8 +28,8 @@ def get_bucket_info():
 
         # Formata relatório
         report.append({
-            'Nome do Bucket ': bucket_name,
-            'Tamanho (GB)': round(size_mb, 2),
+            'Nome do Bucket': bucket_name,
+            'Tamanho (MB)': round(size_mb, 2),
             'Classe de Storage': storage_classes,
             'Regra de Lifecycle': lifecycle_rules
         })
